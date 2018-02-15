@@ -18,3 +18,17 @@ $(document).ready(function(){
 			fm.append(('<script type="text\/javascript">'+$('#js').val()+'<\/script>'));
 		});
 	});
+		function htmlcopy(){
+			$('#html').select();
+			document.execCommand('copy');
+		}
+		
+		function csscopy(){
+			$('#css').select();
+			document.execCommand('copy');
+		}
+		
+		function jscopy(){
+			$('#js').select();
+			document.execCommand('copy');
+		}
